@@ -42,3 +42,19 @@ section div.circle {
     border-radius: 50%;
     display: inline-block;
 }
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    padding: 30px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+margin: 0 10px;
+}
