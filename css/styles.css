@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bluu Next";
-    src: url(assets/bluunext.woff2), url(assets/bluunext.woff);
+    src: url(/assets/bluunext.woff2), url(assets/bluunext.woff);
 }
 
 body {
-    font-family: "Bluu Next", "TImes New Roman";
+    font-family: "Bluu Next", "Times New Roman";
     color: #000000;
     background-color: #edc7a9;
     background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
@@ -22,4 +22,14 @@ h1 {
 h2 {
     /* 10% of the minimum height or width of the browser. */
     font-size: 10vmin; 
+}
+
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* Read up on this */
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
 }
