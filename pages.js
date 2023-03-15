@@ -76,7 +76,7 @@ randomTag.addEventListener("click", function () {
     random()
 })
 
-// Challenge: Don't allow random to pick the same slide. 
+// Extra Challenge: Don't allow random to pick the same slide. 
 
 
 
@@ -102,3 +102,5 @@ document.addEventListener("keyup", function(event) {
         previous()
     }
 })
+
+// Extra Challenge: Make the left and right slides of the screen clickable so that it goes to the next page
