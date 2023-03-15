@@ -13,6 +13,7 @@ const pages = [
 
 // Pick the relevant tags 
 const nextTag = document.querySelector("footer img.next") //Similar to how you'd pick in CSS
+const randomTag = document.querySelector("footer img.random")
 const previousTag = document.querySelector("footer img.prev")
 const outputTag = document.querySelector("h2")
 const circleTag = document.querySelector("section div.circle")
@@ -50,6 +51,12 @@ const next = function () {
  }
 //  Now going to add an event, which states when we do something the following happens. 
 
+// Pick a random slide
+const random = function () {
+    pageNumber = Math.floor(Math.random() * pages.length) 
+
+    updateSection()
+}
 
 
 // On click of nextTag, run this
@@ -63,3 +70,10 @@ previousTag .addEventListener("click", function () {
     // Need to run the next function on click
     previous()
 })
+
+// On click of randomTag, run this 
+randomTag.addEventListener("click", function () { 
+    random()
+})
+
+// Challenge: Don't allow random to pick the same slide. 
