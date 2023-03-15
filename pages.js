@@ -77,3 +77,28 @@ randomTag.addEventListener("click", function () {
 })
 
 // Challenge: Don't allow random to pick the same slide. 
+
+
+
+
+
+
+
+
+// When a user presses a key, check for arrow left or right
+// And do next or previous correctly
+document.addEventListener("keyup", function(event) {
+    console.log(event)
+
+    // If the key being pressed is ArrowRight
+
+    if (event.key === "ArrowRight") {
+        next()
+    } 
+
+    // If the key being pressed is ArrowLeft
+
+    if (event.key === "ArrowLeft") {
+        previous()
+    }
+})
