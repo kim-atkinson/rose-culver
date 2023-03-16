@@ -1,3 +1,16 @@
+/* Define global variables */
+:root {
+    --color-primary: #000000;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box; 
+}
+
+/* Typography */
+
 @font-face {
     font-family: "Bluu Next";
     src: url(/assets/bluunext.woff2), url(assets/bluunext.woff);
@@ -7,7 +20,6 @@ body {
     font-family: "Bluu Next", "Times New Roman";
     font-size: 24px;
     line-height: 1.25;
-    color: #000000;
     background-color: #edc7a9;
     background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
     
