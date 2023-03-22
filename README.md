@@ -1,1 +1,1 @@
-Portfolio for Toronto-based graphic designer.
+Portfolio website for Toronto-based graphic designer.
